@@ -1,0 +1,137 @@
+/******** Fonts Import *********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+
+/******** Navbar ********/
+.navbar-brand{
+width: 67vw;
+position: absolute;
+top: 0;
+}
+.navbar-brand img{
+    display: block;
+    margin: auto;
+}
+
+.col{
+    text-align: center;
+}
+
+/****** Welcome Page Language *******/
+#fr{
+    font-family: 'Poppins', sans-serif;
+}
+#en{
+    font-family: 'Poppins', sans-serif;
+}
+#ar{
+    font-family: 'Almarai', sans-serif;
+}
+
+/********** Login panel  ********/
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+    background: #212529 !important;  /* fallback for old browsers */
+float:left;
+width:100%;
+padding : 50px 0;
+height: 60.4rem;
+}
+.banner-sec{
+    background:url("../img/logo.png")  no-repeat left bottom; 
+    background-size:cover;
+     min-height:500px;
+      border-radius: 0 10px 10px 0; padding:0;
+      background-size: contain;
+    }
+#containerLogin{
+    background:#fff;
+     border-radius: 10px;
+      box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+       position:relative;
+        top:80px;
+    }
+.carousel-inner{
+    border-radius:0 10px 10px 0;
+}
+.carousel-caption{
+    text-align:left; left:5%;
+}
+.login-sec{
+    padding: 50px 30px;
+    position:relative;
+}
+.login-sec .copy-text{
+    position:absolute;
+    width:80%;
+    bottom:20px;
+    font-size:13px;
+    text-align:center;
+}
+.login-sec .copy-text i{
+    color:#61FD88;
+}
+.login-sec .copy-text a{
+    color:#61FD88;
+}
+.login-sec h2{
+    margin-bottom:30px;
+    font-weight:800;
+    font-size:30px;
+    color: #61FD88;
+    }
+.login-sec h2:after{
+    content:" ";
+    width:100px;
+    height:5px; 
+    background:#61FD88; 
+    display:block; 
+    margin-top:20px; 
+    border-radius:3px; 
+    margin-left:auto;
+    margin-right:auto
+}
+.btn-login{
+    background: #61FD88; 
+    color:#fff; 
+    font-weight:600;
+}
+.banner-text{
+    width:70%;
+    position:absolute; 
+    bottom:40px; 
+    padding-left:20px;
+}
+.banner-text h2{
+    color:#fff; 
+    font-weight:600;
+}
+.banner-text h2:after{
+    content:" "; 
+    width:100px; 
+    height:5px; 
+    background:#FFF; 
+    display:block; 
+    margin-top:20px; 
+    border-radius:3px;
+}
+.banner-text p{
+    color:#fff;
+}
+
+/*Dashboard*/
+
+#dashboard{
+    background: #212529 !important;
+    color: white;
+    text-align: center;
+}
+#addmember{
+    background: gray;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #61FD88 !important;
+    border-color: #61FD88 !important;
+}
