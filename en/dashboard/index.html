@@ -12,45 +12,61 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body style="background: rgb(27, 27, 27);">
 <!-- start of header section-->
 <header>
     <!-- start of nav-->
-    <nav class="navbar navbar-light bg-dark m-auto" style="min-height: 220px;">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="../../assets/img/logo.png" alt="logo">
-          </a>
-        </div>
-      </nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
     <!-- end of nav-->
 </header>
-<body style="background: #212529 !important">
-
-<div class="container" id="dashboard">
-    <h1>Welcome To Database</h1>
-<br>
-<br>
+<div class="container">
+  <br>
+  <br>
+  <h1 style="color:white;text-align: center;">Please Choose An Action</h1>
+  <br>
+  <br>
+  <br>
 <div class="row">
-    <div class="col">
-    <a href="" ><img src="https://www.addtelegrammember.com/wp-content/uploads/2020/01/Add-Member-To-Telegram-Channel-Free.jpg" height="500" width="600"alt="" ></img></a>
-    <br>
-    <br>
-    <a href="add.html" ><button type="button" class="btn btn-primary btn-lg">Add Staff</button></a>
-    <br>
-    <br>
-    </div>
-    <div class="col">
-     <a href="" ><img src="https://www.ermeo.com/wp-content/uploads/2020/12/checklist.png" height="500" width="600" alt="" ></img></a>
-     <br>
-     <br>
-     <a href="https://google.dz"><button type="button" class="btn btn-primary btn-lg">Check The Staff List</button></a>
-     <br>
-     <br>
-    </div>
+      <div class="col">
+        <div class="card" style="width: 35rem;">
+          <img src="https://image.freepik.com/vecteurs-libre/concept-inscription-ligne_23-2147979928.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col">
+        <div class="card" style="width: 35rem;">
+          <img src="https://image.freepik.com/free-vector/registration-form_23-2147981065.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+</div>
 </div>
 
-</div>
+
+
+  
 </body>  
 <!--budle bootstrap-->
 <script src="../../bootstrap/js/bootstrap.bundle.js"></script>
