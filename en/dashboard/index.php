@@ -54,48 +54,19 @@ if (!isset($_SESSION['username'])) {
     </nav>
     <!-- end of nav-->
 </header>
- 
-<div class="container">
-  <br>
-  <br>
-  <h1 style="color:white;text-align: center;">Please Choose An Action</h1>
-  <br>
-  <br>
-  <br>
-<div class="row">
-      <div class="col">
-       <div class="btn-wrapper" data-confirmation>
-	<button class="btn js-delete" type="button">
-		Delete
-	</button>
+ <br>
+ <br>
+ <br>
+ <div class="container">
+   <div class="row">
+     <div class="col" id="addtodatabase">
 
-	<div class="confirmation">
-		<button class="btn -danger" type="button" title="confirm">
-			<span class="icon material-icons" aria-hidden>
-				done
-			</span>
-		</button>
-	</div>
-</div>
-      </div>
-      <br>
-      <br>
-      <div class="col">
-        <div class="card" style="width: 35rem;">
-          <img src="../../assets/img/check.jpg" class="card-img-top" alt="Check">
-          <div class="card-body">
-            <h5 class="card-title">Check The Database</h5>
-            <p class="card-text">Here you can check the database.</p>
-            <a href="#" class="btn btn-primary">CHECK HERE</a>
-          </div>
-        </div>
-      </div>
-</div>
-</div>
-
-
-
-  
+     </div>
+     <div class="col" id="viewdatabase">
+       
+     </div>
+   </div>
+ </div>
 </body>  
 <!--budle bootstrap-->
 <script src="../../bootstrap/js/bootstrap.bundle.js"></script>
