@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <!-- Head Section-->
@@ -17,11 +18,33 @@
 <header>
     <!-- start of nav-->
     <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content</h5>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
+      <div class="bg-dark p-4" style="color: white;">
+        <a href='index.php?deconnexion=true'><span>Déconnexion</span></a>
+            
+            <!-- tester si l'utilisateur est connecté -->
+            <?php
+
+                session_start();
+if (!isset($_SESSION['username'])) {
+                        header("location: http://m4bdesigns.xyz/preview/university/en/"); }
+                    
+                if(isset($_GET['deconnexion']))
+                { 
+                   if($_GET['deconnexion']==true)
+                   {  
+                      session_unset();
+                      header("location: http://m4bdesigns.xyz/preview/university/en/");
+                   }
+                }
+                else if($_SESSION['username'] !== ""){
+                    $user = $_SESSION['username'];
+                    // afficher un message
+                    echo "<br>Bonjour $user, vous êtes connectés";
+                }
+            ?>
       </div>
     </div>
+    
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +54,7 @@
     </nav>
     <!-- end of nav-->
 </header>
+ 
 <div class="container">
   <br>
   <br>
@@ -40,14 +64,19 @@
   <br>
 <div class="row">
       <div class="col">
-        <div class="card" style="width: 35rem;">
-          <img src="../../assets/img/register.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Add To Database</h5>
-            <p class="card-text">Here you can add new members to database.</p>
-            <a href="add.html" class="btn btn-primary">ADD HERE</a>
-          </div>
-        </div>
+       <div class="btn-wrapper" data-confirmation>
+	<button class="btn js-delete" type="button">
+		Delete
+	</button>
+
+	<div class="confirmation">
+		<button class="btn -danger" type="button" title="confirm">
+			<span class="icon material-icons" aria-hidden>
+				done
+			</span>
+		</button>
+	</div>
+</div>
       </div>
       <br>
       <br>
