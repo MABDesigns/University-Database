@@ -411,3 +411,10 @@ transform: translateX(-50%);
 background-color: white;
 transform: scale(1.2)
 }
+
+#logoofuniv{
+  position: absolute;
+  z-index: 100;
+  bottom: 80%;
+  left: 39%;
+}
