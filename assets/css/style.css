@@ -351,6 +351,7 @@ height: 60.4rem;
     margin: 0 0 10px;
     opacity: 0;
   }
+  
   .home .carousel-item p{
     font-size: 30px;
     margin: 0;
@@ -410,11 +411,4 @@ transform: translateX(-50%);
 .home .carousel-indicators button.active{
 background-color: white;
 transform: scale(1.2)
-}
-
-#logoofuniv{
-  position: absolute;
-  z-index: 100;
-  bottom: 80%;
-  left: 39%;
 }
