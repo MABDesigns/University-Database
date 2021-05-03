@@ -30,6 +30,7 @@ else if($_SESSION['username'] !== ""){
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="http://m4bdesigns.xyz/preview/university/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="http://m4bdesigns.xyz/preview/university/assets/css/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <div class="deconnectsec" style="background:gray;">
@@ -54,7 +55,7 @@ if($_SESSION['username'] !== ""){
  <div class="carousel-inner">
    <div class="carousel-item active" style="background-image: url('http://m4bdesigns.xyz/preview/university/assets/img/bg1.webp');">
      <div class="container">
-       <img src="http://m4bdesigns.xyz/preview/university/assets/img/logotransparent.png" alt="">
+       <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-responsive"alt="">
        <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/add/"><h2>Add Member To </h2></a>
        <p>Database</p>
        <br>
@@ -65,12 +66,11 @@ if($_SESSION['username'] !== ""){
    </div>
    <div class="carousel-item" style="background-image: url('http://m4bdesigns.xyz/preview/university/assets/img/bg2.webp');">
      <div class="container">
-               <img src="http://m4bdesigns.xyz/preview/university/assets/img/logotransparent.png" alt="">
+               <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-responsive" alt="">
        <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/check/"><h2>Check The</h2></a>
        <p>Database</p>
        <br>
        <br>
-       <button type="button" class="btn btn-light">From Here</button>
      </div>     
    </div>
   
@@ -81,6 +81,8 @@ if($_SESSION['username'] !== ""){
 
 </section>
 <!-- Bundle Bootstrap -->
+
+<script src="http://m4bdesigns.xyz/preview/university/bootstrap/js/bootstrap.min.js"></script>
 <script src="http://m4bdesigns.xyz/preview/university/bootstrap/js/bootstrap.bundle.js"></script>
 </body>  
 
