@@ -3,7 +3,7 @@
 <html>
     <!-- Head Section-->
 <head>
-    <title>University Chadli Bendjedid Database</title>
+    <title>University Database</title>
 <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="../fontawesome/css/solid.min.css">
