@@ -6,11 +6,10 @@
 /******** Navbar ********/
 .navbar-brand{
 width: 67vw;
-position: absolute;
 top: 0;
 }
 .navbar-brand img{
-    display: block;
+    display: flex;
     margin: auto;
 }
 
@@ -38,13 +37,7 @@ width:100%;
 padding : 50px 0;
 height: 60.4rem;
 }
-.banner-sec{
-    background:url("../img/logo.png")  no-repeat left bottom; 
-    background-size:cover;
-     min-height:500px;
-      border-radius: 0 10px 10px 0; padding:0;
-      background-size: contain;
-    }
+
 #containerLogin{
     background:#fff;
      border-radius: 10px;

@@ -52,6 +52,7 @@
     </form>
             </div>
             <div class="col-md-8 banner-sec">    
+              <img src="http://m4bdesigns.xyz/preview/university/assets/img/univlogin.png" class="img-fluid">
             </div>
     </section>
 </body>
