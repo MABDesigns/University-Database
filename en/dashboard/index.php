@@ -25,7 +25,7 @@ else if($_SESSION['username'] !== ""){
 <html>
  <!-- Head Section-->
 <head>
- <title>University Database</title>
+ <title>University Chadli Bendjedid Database</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="http://m4bdesigns.xyz/preview/university/bootstrap/css/bootstrap.min.css">
@@ -55,9 +55,9 @@ if($_SESSION['username'] !== ""){
  <div class="carousel-inner">
    <div class="carousel-item active" style="background-image: url('http://m4bdesigns.xyz/preview/university/assets/img/bg1.webp');">
      <div class="container">
-       <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-responsive"alt="">
-       <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/add/"><h2>Add Member To </h2></a>
-       <p>Database</p>
+       <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-fluid"alt="">
+       <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/add/"><h2>Add/Edit</h2></a>
+       <p>To Database</p>
        <br>
        <br>
        <br>
@@ -66,9 +66,9 @@ if($_SESSION['username'] !== ""){
    </div>
    <div class="carousel-item" style="background-image: url('http://m4bdesigns.xyz/preview/university/assets/img/bg2.webp');">
      <div class="container">
-               <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-responsive" alt="">
-       <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/check/"><h2>Check The</h2></a>
-       <p>Database</p>
+               <img src="https://i.postimg.cc/PxkQ4TzH/testuniv2.png" class="img-fluid" alt="">
+       <a href="http://m4bdesigns.xyz/preview/university/en/dashboard/check/"><h2>Check</h2></a>
+       <p>The Database</p>
        <br>
        <br>
      </div>     
